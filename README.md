@@ -2,8 +2,29 @@
 
 Strudel is a JavaScript synth: https://strudel.cc
 
-Strudel comes loaded with a ton of famous drum machine samples, however selecting the right kick or hat takes time because the sounds are not grouped by sound, they're grouped by kit.
+Strudel comes pre-loaded with a ton of famous drum machine samples, 
+however selecting the right sample takes time because the sounds 
+are grouped by the machine they belong to and not by sound type.
 
-In order to ease the process of selecting a particular element I've made arrays for each sound containing all kicks, hats, etc.
+In order to ease the process of selecting a particular sound,
+I've made arrays for each type containing all kicks, hats, etc.
 
-This way one can cycle through all the available kick sounds in order to pick the perfect one instead of looking for them kit by kit. 
+This way one can cycle through all the available kick in order 
+to pick the perfect one instead of looking for them kit by kit. 
+
+I've also taken the liberty to categorize the sounds based on
+my own taste, for instance wet splashy kicks that sound more 
+like a snare are moved into a kicksnare category, rims shots
+that sound like clunking wood are put into wooden section.
+
+To use the arrays you need to create your own drum kit:
+
+let drums = {
+  kick:  kicks[5],
+  hat:   hats[12],
+  snare: snares[44],
+}
+
+Then use your kit in the following format:
+
+"<kick hat kick hat kick snare ~ >*8".pickRestart(drums).sound();
