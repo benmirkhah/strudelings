@@ -19,12 +19,15 @@ that sound like clunking wood are put into wooden section.
 
 To use the arrays you need to create your own drum kit:
 
+```javascript
 let drums = {
   kick:  kicks[5],
   hat:   hats[12],
   snare: snares[44],
 }
-
+```
 Then use your kit in the following format:
 
-"<kick hat kick hat kick snare ~ >*8".pickRestart(drums).sound();
+```javascript
+"<kick hat kick hat*2 kick snare ~ >*8".pickRestart(drums).sound();
+```
