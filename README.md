@@ -1,5 +1,7 @@
 # Strudelings
 
+<b>Groups strudle drum smaples by sound type</b>
+
 Strudel is a JavaScript synth: https://strudel.cc
 
 Strudel comes pre-loaded with a ton of drum machine samples,</br>
@@ -7,7 +9,7 @@ however selecting the right sample takes time because the sounds</br>
 are grouped by the machine they belong to and not by sound type.
 
 In order to ease the process of selecting a particular sound,</br>
-I've made arrays for each type containing all kicks, hats, etc.
+I've made arrays for each sound containing all kicks, hats, etc.
 
 This way one can cycle through all the available kick in order</br>
 to pick the perfect one instead of looking for them kit by kit. 
