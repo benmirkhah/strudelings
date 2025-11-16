@@ -1,6 +1,4 @@
-let kicks = Array();
-
-kicks = [  //Favorites are stared *
+var kicks = [    //Favorites have *
   "9000_bd",                  //0 *
   "bd:1",                     //1
   "bd:2",                     //2
@@ -60,7 +58,7 @@ kicks = [  //Favorites are stared *
   "dr550_bd:2",               //51
   "drumulator_bd",            //52 *
   "emudrumulator_bd",         //53 *
-  "emumodular_bd:1",          //54 * 
+  "emumodular_bd:1",          //54 *
   "emusp12_bd:4",             //55
   "emusp12_bd:6",             //56
   "emusp12_bd:7",             //57
@@ -83,11 +81,11 @@ kicks = [  //Favorites are stared *
   "korgkpr77_bd",             //72 *
   "korgkr55_bd",              //73 *
   "korgm1_bd:2",              //74
-  "korgm1_bd:3",              //75 * 
+  "korgm1_bd:3",              //75 *
   "korgminipops_bd:1",        //76
   "korgminipops_bd:5",        //77 *
   "korgpoly800_bd:1",         //78 *
-  "korgpoly800_bd:2",         //79 * <<DUP
+  "korgt3_misc:2",            //79 *
   //-----------------------------
   "korgpoly800_bd:2",         //80 *
   "korgpoly800_bd:3",         //81 *
@@ -296,4 +294,44 @@ kicks = [  //Favorites are stared *
   "xr10_bd:9",                //265
   "yamaharx5_bd:1",           //266 *
   "yamaharx5_bd:2",           //267
+  "univoxmicrorhythmer12_bd", //268
+  "yamaharm50_misc:11",       //269
+  //-------------------------------
+  "korgminipops_misc:1",      //270 *
+  "korgminipops_misc:4",      //271 *  
+  "yamaharm50_perc:27",       //272 *
+  "yamaharm50_perc:32",       //273 *
+  "yamaharm50_perc:33",       //274 *
+  "yamaharm50_perc:51",       //275
+  "yamaharm50_perc:54",       //276
+  "yamaharm50_perc:34",       //277
+  "yamaharm50_perc:36",       //278
+  "yamaharm50_perc:11",       //279
+  //-------------------------------
+  "korgkr55_perc:1",          //280
+  "rolandmc303_perc:29",      //281
+  "yamaharm50_perc:4",        //282
+  "yamaharm50_perc:5",        //283
 ]; 
+
+var pews = [                  //PEW KICKS
+  "sergemodular_bd",          //PK0
+  "mc202_bd:2",               //PK1
+  "mc202_bd:3",               //PK2
+  "mc202_bd:4",               //PK3
+  "mc303_bd:4",               //PK4
+  "rolandsystem100_bd:2",     //PK5
+  "rolandsystem100_bd:5",     //PK6
+  "rolandsystem100_bd:6",     //PK7
+  "rolandsystem100_bd:8",     //PK8
+  "rolandsystem100_bd:11",    //PK9
+  //--------------------------------
+  "rolandsystem100_bd:12",    //PK10
+  "spacedrum_bd:6",           //PK12
+  "spacedrum_bd:8",           //PK13
+  "spacedrum_bd:9",           //PK14
+  "rhythmace_perc:3",         //PK15
+  "sergemodular_perc:1",      //PK16
+  "sergemodular_perc:2",      //PK17
+  "sergemodular_perc:3",      //PK18
+];
