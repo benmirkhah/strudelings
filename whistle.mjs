@@ -13,3 +13,5 @@ var whistles = [
   "rolandmt32_perc:12",                 //Whistle Long
   "rolandmc303_perc:25",                //Whistle Long
 ];
+
+export default { whistles }
