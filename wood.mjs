@@ -26,36 +26,6 @@ var sticks = [  //Drum Sticks
   "korgt3_perc:3",                      //Sticks 4 *
 ];
 
-var wkicks = [  //Wooden Kicks
-  "bd:1",                               //Zero
-  "sergemodular_perc:5",                //WKick 1 *
-  "yamaharm50_perc:30",                 //WKick 2 *
-  "yamaharm50_perc:29",                 //WKick 3 *
-  "yamaharm50_perc:28",                 //WKick 4 *
-  "rolandsystem100_perc:10",            //WKick 5 *
-  "yamahary30_misc:1",                  //WKick 6
-  "mpc1000_bd:4",                       //WKick 7
-  "linnlm2_bd:2",                       //WKick 8
-  "linnlm2_bd:3",                       //WKick 9
-  "linnlm2_bd:4",                       //WKick 10
-  "yamahary30_misc:2",                  //WKick 11
-  "simmonssds5_rim:3",                  //WKick 12
-];
-
-var wsnares = [  //Wooden Snares
-  "sd:1",                               //Zero
-  "compurhythm1000_perc:3",             //WSD *
-  "rolandmt32_perc:2",                  //WSD *
-  "yamaharm50_perc:6",                  //WSD *
-  "yamaharm50_perc:8",                  //WSD
-  "yamaharm50_perc:9",                  //WSD
-  "yamaharm50_perc:13",                 //WSD
-  "yamahatg33_perc:3",                  //WSD
-  "akaimpc60_perc:1",                   //WSD
-  "yamahatg33_rim",                     //WSD
-  "akaimpc60_rim",                      //WSD
-];
-
 var tiks = [  //Wooden Tiks
   "sd:1",                               //Zero
   "rolandtr808_rim",                    //Tik 1  *
@@ -96,3 +66,35 @@ var toks = [  //Wooden Toks
   "linnlm1_rim",                        //Tok
   "rolandcompurhythm1000_rim",          //Tok
 ];
+
+var wkicks = [  //Wooden Kicks
+  "bd:1",                               //Zero
+  "sergemodular_perc:5",                //WKick 1 *
+  "yamaharm50_perc:30",                 //WKick 2 *
+  "yamaharm50_perc:29",                 //WKick 3 *
+  "yamaharm50_perc:28",                 //WKick 4 *
+  "rolandsystem100_perc:10",            //WKick 5 *
+  "yamahary30_misc:1",                  //WKick 6
+  "mpc1000_bd:4",                       //WKick 7
+  "linnlm2_bd:2",                       //WKick 8
+  "linnlm2_bd:3",                       //WKick 9
+  "linnlm2_bd:4",                       //WKick 10
+  "yamahary30_misc:2",                  //WKick 11
+  "simmonssds5_rim:3",                  //WKick 12
+];
+
+var wsnares = [  //Wooden Snares
+  "sd:1",                               //Zero
+  "compurhythm1000_perc:3",             //WSD *
+  "rolandmt32_perc:2",                  //WSD *
+  "yamaharm50_perc:6",                  //WSD *
+  "yamaharm50_perc:8",                  //WSD
+  "yamaharm50_perc:9",                  //WSD
+  "yamaharm50_perc:13",                 //WSD
+  "yamahatg33_perc:3",                  //WSD
+  "akaimpc60_perc:1",                   //WSD
+  "yamahatg33_rim",                     //WSD
+  "akaimpc60_rim",                      //WSD
+];
+
+export default { knocks, sticks, tiks, toks, wkicks, wsnares }
