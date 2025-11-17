@@ -335,3 +335,5 @@ var pews = [                  //PEW KICKS
   "sergemodular_perc:2",      //PK17
   "sergemodular_perc:3",      //PK18
 ];
+
+export default { kicks, pews }
