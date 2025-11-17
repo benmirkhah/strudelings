@@ -13,3 +13,5 @@ var typewriter = [  //Sounds like old typewriters
   "yamaharm50_perc:23",                 //12 Tom
   "yamaharm50_perc:24",                 //13 Tom
 ];
+
+export default { typewriter }
