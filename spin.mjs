@@ -21,4 +21,7 @@ var spins = [ //Ratchet / Cog Rattle spin sounds
   "rolandcompurhythm78_misc:2",         //18
   "rolandcompurhythm78_misc:3",         //19
   "rolandcompurhythm78_misc:4",         //20
+  "emusp12_misc:2",                     //21
 ];
+
+export default { spins }
