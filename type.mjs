@@ -1,4 +1,4 @@
-var typewriter = [  //Sounds like old typewriters
+const typewriter = [  //Sounds like old typewriters
   "rolandmc303_perc:30",                //1  Bell
   "yamahary30_misc:8",                  //2  Clap
   "rolandmc303_perc:34",                //3  Hat

@@ -1,4 +1,4 @@
-var kicks = [    //Favorites have *
+const kicks = [  //Favorites have *
   "9000_bd",                  //0 *
   "bd:1",                     //1
   "bd:2",                     //2
@@ -314,7 +314,7 @@ var kicks = [    //Favorites have *
   "yamaharm50_perc:5",        //283
 ]; 
 
-var pews = [                  //PEW KICKS
+const pews = [          //PEW KICKS
   "sergemodular_bd",          //PK0
   "mc202_bd:2",               //PK1
   "mc202_bd:3",               //PK2

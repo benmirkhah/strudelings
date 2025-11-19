@@ -1,4 +1,4 @@
-var knocks = [  //Knocks on wood
+const knocks = [  //Knocks on wood
   "rim:1",                              //Zero
   "jazz:2",                             //Knock 1  *
   "misc:1",                             //Knock 2  *
@@ -18,7 +18,7 @@ var knocks = [  //Knocks on wood
   "rolands50_perc:6",                   //Knock 16
 ];
 
-var sticks = [  //Drum Sticks
+const sticks = [  //Drum Sticks
   "sd:1",                               //Zero
   "alesishr16_rim",                     //Sticks 1 *
   "rolandd70_perc",                     //Sticks 2 *
@@ -26,7 +26,7 @@ var sticks = [  //Drum Sticks
   "korgt3_perc:3",                      //Sticks 4 *
 ];
 
-var tiks = [  //Wooden Tiks
+const tiks = [  //Wooden Tiks
   "sd:1",                               //Zero
   "rolandtr808_rim",                    //Tik 1  *
   "korgm1_misc:6",                      //Tik 2  *
@@ -48,7 +48,7 @@ var tiks = [  //Wooden Tiks
   "sp12_bd:12",                         //Tik 18
 ];
 
-var toks = [  //Wooden Toks
+const toks = [  //Wooden Toks
   "sd:1",                               //Zero
   "rolandtr909_rim:2",                  //Tok 1 *
   "rolandtr909_rim:3",                  //Tok 2 *
@@ -67,7 +67,7 @@ var toks = [  //Wooden Toks
   "rolandcompurhythm1000_rim",          //Tok
 ];
 
-var wkicks = [  //Wooden Kicks
+const wkicks = [  //Wooden Kicks
   "bd:1",                               //Zero
   "sergemodular_perc:5",                //WKick 1 *
   "yamaharm50_perc:30",                 //WKick 2 *
@@ -83,7 +83,7 @@ var wkicks = [  //Wooden Kicks
   "simmonssds5_rim:3",                  //WKick 12
 ];
 
-var wsnares = [  //Wooden Snares
+const wsnares = [  //Wooden Snares
   "sd:1",                               //Zero
   "compurhythm1000_perc:3",             //WSD *
   "rolandmt32_perc:2",                  //WSD *

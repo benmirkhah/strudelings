@@ -1,4 +1,4 @@
-var whistles = [
+const whistles = [
   "yamaharm50_perc:26",                 //Whistle Short *
   "bossdr550_perc:10",                  //Whistle Short
   "rolandmt32_perc:11",                 //Whistle Short

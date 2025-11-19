@@ -1,4 +1,4 @@
-var spins = [ //Ratchet / Cog Rattle spin sounds
+const spins = [ //Ratchet / Cog Rattle spin sounds
   "hh:1",                               //0 skip
   "rolands50_misc:3",                   //1
   "compurhythm78_misc:3",               //2
